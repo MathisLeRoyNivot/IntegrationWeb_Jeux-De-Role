@@ -47,6 +47,32 @@ p {
     margin: 0px;
 }
 
+#myBtn {
+    background-color: rgba(174, 136, 94, 0.6);
+    
+    border-radius: 4px;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    
+    z-index: 99;
+  }
+  
+  #myBtn:hover {
+    background-color: rgba(177, 114, 42, 0.7);;
+  }
+
+  #myBtn img {
+    height: auto;
+    width: 55px;
+  }
+
 // TITLE AREA 
 .title_area {
     flex-wrap: wrap;
