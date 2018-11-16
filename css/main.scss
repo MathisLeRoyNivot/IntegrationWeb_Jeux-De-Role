@@ -18,6 +18,11 @@ html, body {
     padding: 0;
 }
 
+div:target {
+    padding-top: 7em; 
+    margin-top: -7em; 
+}
+
 .main-container {
     background-color: rgba(174, 136, 94, 0.6);
     margin: 100px auto;
@@ -65,12 +70,7 @@ img.icons_title {
 //NAVBAR
 /* Start General */
 
-.navbar {
-    height: 100px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
+
 .navbar ul li a {
     color: #FFF;
     text-decoration: none;
@@ -81,8 +81,11 @@ img.icons_title {
   .navbar {
     background-image: url("../img/fond_nav_ordinateur.png");
     background-position-y: 50%;
-    background-size: cover;
-    
+    background-size: cover;    
+    height: 100px;
+    position: sticky;
+    top: 0;
+    width: 100%;
   }
   ul li:nth-child(1){
       font-size: 60px;
@@ -158,7 +161,6 @@ img.icons_title {
   } 
   /* End Media Query */
   
-// PRESENTATION
 
 // TABLE GAME
 .container_main_jdt {
