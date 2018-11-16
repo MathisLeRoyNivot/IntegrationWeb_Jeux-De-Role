@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: 'dungeon';
+  src: url("../img/DUNGRG__.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'dungeon';
+}
+/*# sourceMappingURL=main.css.map */
