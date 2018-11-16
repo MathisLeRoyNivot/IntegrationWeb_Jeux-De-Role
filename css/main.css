@@ -6,6 +6,39 @@
 }
 
 html, body {
+  background-image: url("../img/Banckground.jpg");
+  background-size: cover;
   font-family: 'dungeon';
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: rgba(174, 138, 94, 0.6);
+  margin: 0 auto;
+  width: 75%;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+p {
+  font-size: 40px;
+}
+
+img.icons_title {
+  width: 78px;
+  height: 78px;
+}
+
+.img_theatral_game {
+  height: auto;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
