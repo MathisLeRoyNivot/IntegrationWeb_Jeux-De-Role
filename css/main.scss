@@ -32,8 +32,12 @@ h2 {
     font-size: 65px;
 }
 
-p {
+p, li {
     font-size: 40px;
+}
+
+li {
+    list-style-type: none;
 }
 
 img.icons_title {
@@ -47,7 +51,25 @@ img.icons_title {
 // TABLE GAME
 
 // ONLINEGAME
+.container_main_Jel {
+    display: flex;
+    
+}
+.container_left_Jel {
+    width: 45%;
+    text-align: center;
+}
 
+.container_right_Jel {
+    width: 55%;
+}
+
+.image_jel {
+    height: auto;
+    width: 80%;
+    border-radius: 200px; 
+    margin-top: 50%;
+}
 // THEATRAL
 .img_theatral_game {
     height: auto;
