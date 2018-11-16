@@ -1,3 +1,5 @@
+// -------------------- GENERAL STYLE --------------------
+// IMPORT FONT
 @font-face {
     font-family: 'dungeon';
     src: url('../img/DUNGRG__.ttf') format('truetype');
@@ -7,5 +9,46 @@
 }
 
 html, body {
+    background-image: url('../img/Banckground.jpg');
+    background-size: cover;
     font-family: 'dungeon';
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+// TITLE SECTION
+h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+p {
+    font-size: 40px;
+}
+
+img.icons_title {
+    width: 78px;
+    height: 78px;
+}
+
+// -------------------- SPECIAL STYLE --------------------
+// PRESENTATION
+
+// TABLE GAME
+
+// ONLINEGAME
+
+// THEATRAL
+.img_theatral_game {
+    height: auto;
+    width: 100%;
 }
