@@ -37,6 +37,25 @@ img.icons_title {
   height: 78px;
 }
 
+.container_main_jdt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-left-jdt {
+  width: 60%;
+}
+
+.container-right-jdt {
+  width: 40%;
+}
+
+.img_jdt {
+  height: auto;
+  width: 80%;
+}
+
 .img_theatral_game {
   height: auto;
   width: 100%;
