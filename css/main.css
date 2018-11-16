@@ -56,6 +56,25 @@ img.icons_title {
   width: 78px;
 }
 
+.container_main_jdt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-left-jdt {
+  width: 60%;
+}
+
+.container-right-jdt {
+  width: 40%;
+}
+
+.img_jdt {
+  height: auto;
+  width: 80%;
+}
+
 .container_main_Jel {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,4 +104,3 @@ img.icons_title {
   margin-top: 40px;
   width: 77%;
 }
-/*# sourceMappingURL=main.css.map */
