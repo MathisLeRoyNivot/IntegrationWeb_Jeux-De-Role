@@ -9,7 +9,9 @@
 }
 
 html, body {
+    background-attachment: fixed;
     background-image: url('../img/Banckground.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'dungeon';
     margin: 0;
@@ -18,31 +20,44 @@ html, body {
 
 .main-container {
     background-color: rgba(174, 136, 94, 0.6);
-    margin: 0 auto;
+    margin: 100px auto;
+    padding: 20px 30px 100px 30px;
     width: 75%;
 }
 
 // TITLE SECTION
 h1 {
-    font-size: 90px;
+    display: inline;
+    font-size: 80px;
     text-align: center;
 }
 
 h2 {
-    font-size: 65px;
+    font-size: 55px;
 }
 
-p, li {
-    font-size: 40px;
+p {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+// TITLE AREA 
+.title_area {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
 }
 
 li {
+    font-size: 35px;
     list-style-type: none;
 }
 
 img.icons_title {
-    width: 78px;
     height: 78px;
+    margin: 0px 25px;
+    width: 78px;
 }
 
 // -------------------- SPECIAL STYLE --------------------
@@ -68,10 +83,13 @@ img.icons_title {
     height: auto;
     width: 80%;
     border-radius: 200px; 
-    margin-top: 50%;
+    margin-top: 20%;
 }
 // THEATRAL
 .img_theatral_game {
+    display: block;
     height: auto;
-    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 77%;
 }
