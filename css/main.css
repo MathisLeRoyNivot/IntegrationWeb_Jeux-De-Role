@@ -14,7 +14,7 @@ html, body {
 }
 
 .main-container {
-  background-color: rgba(174, 138, 94, 0.6);
+  background-color: rgba(174, 136, 94, 0.6);
   margin: 0 auto;
   width: 75%;
 }
@@ -41,4 +41,3 @@ img.icons_title {
   height: auto;
   width: 100%;
 }
-/*# sourceMappingURL=main.css.map */
