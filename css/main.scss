@@ -1,3 +1,5 @@
+// ---------------------- VARIABLES ----------------------
+
 // -------------------- GENERAL STYLE --------------------
 // IMPORT FONT
 @font-face {
@@ -88,32 +90,12 @@ div:target {
     padding-bottom: 10px;
     transition: all .3s ease;
 }
-  .navbar ul input {
+.navbar ul input {
     opacity: .7;
     padding: 5px;
     float: right;
     display: none
-  }
-  /* Start Menue Right */
-  
-  /* Start Media Query */
-  /*@media screen and (max-width:680px){
-    nav ul > li:not(:first-child) {
-      display:none
-    }
-    nav ul > li:last-of-type {
-      display: block
-    }
-    nav ul input {
-      display: inline
-    }
-  }
-  @media screen and (min-width:680px) {
-    nav ul > ol > li {
-      display:none
-    }
-  } 
-  /* End Media Query */
+}
 
 .main-container {
     background-color: rgba(174, 136, 94, 0.6);
@@ -156,14 +138,14 @@ p {
     z-index: 99;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: rgba(177, 114, 42, 0.7);;
-  }
+}
 
-  #myBtn img {
+#myBtn img {
     height: auto;
     width: 55px;
-  }
+}
 
 // TITLE AREA 
 .title_area {
@@ -236,4 +218,112 @@ img.icons_title {
     margin: 0 auto;
     margin-top: 40px;
     width: 77%;
+}
+
+// -------------------- MEDIA QUERIES --------------------
+@media screen and (max-width: 1799px) {
+
+}
+@media screen and (max-width: 1199px) {
+    nav ul > ol > li {
+        display:none
+    }
+
+    ul li:nth-child(1){
+      font-size: 50px;
+    }
+
+    ul li:nth-child(n+2){
+        display: none;
+    }
+
+    img.icons_title {
+        height: 50px;
+        margin: 0px 20px;
+        width: 50px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    ul li:nth-child(1){
+      font-size: 40px;
+    }
+
+    ul li:nth-child(n+2){
+        display: none;
+    }
+
+    img.icons_title {
+        height: 40px;
+        margin: 0px 15px;
+        width: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    nav ul > li:not(:first-child) {
+      display: none;
+    }
+
+    nav ul > li:last-of-type {
+      display: block
+    }
+
+    nav ul input {
+      display: inline
+    }
+
+    img.icons_title {
+        height: 34px;
+        margin: 0px 10px;
+        width: 34px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 20px;
+    }
 }
