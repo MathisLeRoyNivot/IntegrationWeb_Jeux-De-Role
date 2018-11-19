@@ -49,6 +49,10 @@ div:target {
   ul li:nth-child(n+2){
     float: right;
 }
+// Button - Menu burger
+ul li:nth-child(6) {
+    display: none;
+}
   .navbar ul {
     background-color: rgba(112, 105, 105, 0.76); 
     margin: 0;
@@ -233,7 +237,7 @@ img.icons_title {
     ul li:nth-child(n+2){
         display: none;
     }
-
+    
     img.icons_title {
         height: 50px;
         margin: 0px 20px;
@@ -301,12 +305,20 @@ img.icons_title {
 
 @media screen and (max-width: 680px) {
     .main-container {
-        margin: 90px auto;
-        padding: 20px 15px 50px 15px;
+        margin: 30px auto;
+        padding: 5px 15px 50px 15px;
         width: 75%;
     }
 
     // NAVBAR
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar ul {
+        line-height: 30px;
+    }
+
     nav ul > li:not(:first-child) {
       display: none;
     }
@@ -320,9 +332,9 @@ img.icons_title {
     }
 
     img.icons_title {
-        height: 34px;
+        height: 30px;
         margin: 0px 10px;
-        width: 34px;
+        width: 30px;
     }
 
     // RETURN TOP BUTTON
