@@ -34,8 +34,7 @@ div:target {
   background-position-y: 50%;
   background-size: cover;
   height: 100px;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -435,3 +434,4 @@ img.icons_title {
     width: 90%;
   }
 }
+/*# sourceMappingURL=main.css.map */
