@@ -5,7 +5,8 @@
   font-style: normal;
 }
 
-html, body {
+html,
+body {
   background-attachment: fixed;
   background-image: url("../img/Banckground.jpg");
   background-repeat: no-repeat;
@@ -24,6 +25,13 @@ div:target {
 .navbar ul li a {
   color: #FFF;
   text-decoration: none;
+}
+
+.nav-icons {
+  display: none;
+  height: 20px;
+  width: 20px;
+  margin: 0px 15px;
 }
 
 /* End General */
@@ -234,14 +242,11 @@ img.icons_title {
 }
 
 @media screen and (max-width: 1199px) {
-  nav ul > ol > li {
-    display: none;
-  }
   ul li:nth-child(1) {
     font-size: 50px;
   }
   ul li:nth-child(n+2) {
-    display: none;
+    font-size: 40px;
   }
   img.icons_title {
     height: 50px;
@@ -267,8 +272,22 @@ img.icons_title {
 }
 
 @media screen and (max-width: 899px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar ul {
+    line-height: 50px;
+  }
+  .main-container {
+    margin: 40px auto;
+    padding: 5px 15px 50px 15px;
+    width: 75%;
+  }
   ul li:nth-child(1) {
     font-size: 40px;
+  }
+  ul li:nth-child(n+2) {
+    font-size: 30px;
   }
   ul li:nth-child(n+2) {
     display: none;
@@ -283,7 +302,9 @@ img.icons_title {
   .responsive ul li:nth-child(n+2) {
     display: block;
     width: 100%;
+    padding-left: 25px;
     text-align: center;
+    background-color: rgba(112, 105, 105, 0.76);
   }
   .responsive .burger2 {
     display: block;
@@ -292,7 +313,7 @@ img.icons_title {
     display: none;
   }
   .responsive .nav-icons {
-    display: block;
+    display: inline;
   }
   .icons_burger {
     height: 40px;
@@ -302,7 +323,6 @@ img.icons_title {
   }
   img.icons_title {
     height: 40px;
-    margin: 30px 15px;
     width: 40px;
   }
   #myBtn img {
@@ -344,12 +364,18 @@ img.icons_title {
   .responsive ul li:nth-child(n+2) {
     display: block;
     width: 100%;
+    text-align: center;
+    background-color: rgba(112, 105, 105, 0.76);
+    padding-left: 25px;
   }
   .responsive .burger2 {
     display: block;
   }
   .responsive .burger1 {
     display: none;
+  }
+  .responsive .nav-icons {
+    display: inline;
   }
   nav ul > li:last-of-type {
     display: block;
