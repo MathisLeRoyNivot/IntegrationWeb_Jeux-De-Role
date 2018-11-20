@@ -49,6 +49,10 @@ div:target {
   ul li:nth-child(n+2){
     float: right;
 }
+// Button - Menu burger
+ul li:nth-child(6) {
+    display: none;
+}
   .navbar ul {
     background-color: rgba(112, 105, 105, 0.76); 
     margin: 0;
@@ -220,10 +224,7 @@ img.icons_title {
     width: 77%;
 }
 
-// -------------------- MEDIA QUERIES --------------------
-@media screen and (max-width: 1799px) {
-
-}
+// -------------------- START - MEDIA QUERIES --------------------
 @media screen and (max-width: 1199px) {
     nav ul > ol > li {
         display:none
@@ -236,11 +237,16 @@ img.icons_title {
     ul li:nth-child(n+2){
         display: none;
     }
-
+    
     img.icons_title {
         height: 50px;
         margin: 0px 20px;
         width: 50px;
+    }
+
+    #myBtn img {
+        height: auto;
+        width: 45px;
     }
 
     h1 {
@@ -275,6 +281,11 @@ img.icons_title {
         width: 40px;
     }
 
+    #myBtn img {
+        height: auto;
+        width: 40px;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -293,6 +304,21 @@ img.icons_title {
 }
 
 @media screen and (max-width: 680px) {
+    .main-container {
+        margin: 30px auto;
+        padding: 5px 15px 50px 15px;
+        width: 75%;
+    }
+
+    // NAVBAR
+    .navbar {
+        height: 60px;
+    }
+
+    .navbar ul {
+        line-height: 30px;
+    }
+
     nav ul > li:not(:first-child) {
       display: none;
     }
@@ -306,11 +332,18 @@ img.icons_title {
     }
 
     img.icons_title {
-        height: 34px;
+        height: 30px;
         margin: 0px 10px;
+        width: 30px;
+    }
+
+    // RETURN TOP BUTTON
+    #myBtn img {
+        height: auto;
         width: 34px;
     }
 
+    // GENERAL STYLE
     h1 {
         font-size: 34px;
     }
@@ -326,4 +359,53 @@ img.icons_title {
     li {
         font-size: 20px;
     }
+
+    // TABLE GAME
+    .container-left-jdt {
+        width: 70%;
+    }
+
+    .container-right-jdt {
+        width: 30%;
+    }
+
+    .p-padding {
+        padding-right: 10px;
+    }
+
+    .img_jdt {
+        height: auto;
+        width: 100%;
+    }
+
+    // ONLINEGAME
+    .container_main_Jel {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container_left_Jel {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container_right_Jel {
+        width: 100%;
+    }
+
+    .image_jel {
+        height: auto;
+        width: 60%;
+        border-radius: 200px; 
+        margin-top: 10%;
+    }
+ 
+    // THEATRAL
+    .img_theatral_game {
+        height: auto;
+        margin-top: 30px;
+        width: 90%;
+    }
+    
 }
+// -------------------- END - MEDIA QUERIES --------------------
