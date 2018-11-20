@@ -37,14 +37,23 @@ div:target {
   position: fixed;
   top: 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 ul li:nth-child(1) {
   font-size: 60px;
+  width: 30%;
+  text-align: center;
 }
 
 ul li:nth-child(n+2) {
-  float: right;
+  text-align: right;
+}
+
+ul {
+  width: 100%;
 }
 
 ul li:nth-child(6) {
