@@ -34,13 +34,14 @@ div:target {
   background-position-y: 50%;
   background-size: cover;
   height: 100px;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   width: 100%;
 }
 
 ul li:nth-child(1) {
-  font-size: 60px;
+  font-size: 3.438em;
 }
 
 ul li:nth-child(n+2) {
@@ -66,10 +67,6 @@ ul li:nth-child(6) {
 
 .navbar ul > li:last-of-type {
   float: right;
-}
-
-.navbar ul > li:last-of-type a .fa {
-  font-size: 21px;
 }
 
 /* End Navbar */
@@ -109,7 +106,7 @@ ul li:nth-child(6) {
 
 .main-container {
   background-color: rgba(174, 136, 94, 0.6);
-  margin: 9em auto;
+  margin: 100px auto;
   max-width: 1440px;
   padding: 20px 30px 100px 30px;
   width: 75%;
@@ -164,7 +161,7 @@ p {
 }
 
 li {
-  font-size: 1.9em;
+  font-size: 2em;
   list-style-type: none;
 }
 
@@ -227,7 +224,7 @@ img.icons_title {
   width: 77%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 975px) {
   .icon_responsive {
     display: none;
   }
@@ -235,10 +232,10 @@ img.icons_title {
 
 @media screen and (max-width: 1199px) {
   ul li:nth-child(1) {
-    font-size: 50px;
+    font-size: 2.313em;
   }
   ul li:nth-child(n+2) {
-    font-size: 40px;
+    font-size: 1.688em;
   }
   img.icons_title {
     height: 50px;
@@ -250,20 +247,20 @@ img.icons_title {
     width: 45px;
   }
   h1 {
-    font-size: 50px;
+    font-size: 2.313em;
   }
   h2 {
-    font-size: 45px;
+    font-size: 1.688em;
   }
   p {
-    font-size: 30px;
+    font-size: 1.375em;
   }
   li {
-    font-size: 30px;
+    font-size: 1.375em;
   }
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 975px) {
   .navbar {
     height: 80px;
   }
@@ -271,15 +268,15 @@ img.icons_title {
     line-height: 50px;
   }
   .main-container {
-    margin: 7em auto;
+    margin: 40px auto;
     padding: 5px 15px 50px 15px;
     width: 75%;
   }
   ul li:nth-child(1) {
-    font-size: 40px;
+    font-size: 2.313em;
   }
   ul li:nth-child(n+2) {
-    font-size: 30px;
+    font-size: 2.313em;
   }
   ul li:nth-child(n+2) {
     display: none;
@@ -322,22 +319,22 @@ img.icons_title {
     width: 40px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 2.313em;
   }
   h2 {
-    font-size: 30px;
+    font-size: 1.688em;
   }
   p {
-    font-size: 25px;
+    font-size: 1.375em;
   }
   li {
-    font-size: 25px;
+    font-size: 1.375em;
   }
 }
 
 @media screen and (max-width: 680px) {
   .main-container {
-    margin: 7em auto;
+    margin: 30px auto;
     padding: 5px 15px 50px 15px;
     width: 75%;
   }
@@ -354,11 +351,12 @@ img.icons_title {
     display: none;
   }
   .responsive ul li:nth-child(n+2) {
-    display: block;
-    width: 100%;
-    text-align: center;
     background-color: rgba(112, 105, 105, 0.76);
+    display: block;
+    font-size: 2em;
     padding-left: 25px;
+    text-align: center;
+    width: 100%;
   }
   .responsive .burger2 {
     display: block;
@@ -391,10 +389,10 @@ img.icons_title {
     font-size: 1.43em;
   }
   p {
-    font-size: 20px;
+    font-size: 1.125em;
   }
   li {
-    font-size: 20px;
+    font-size: 1.125em;
   }
   .container-left-jdt {
     width: 70%;
@@ -437,4 +435,3 @@ img.icons_title {
     width: 90%;
   }
 }
-/*# sourceMappingURL=main.css.map */
