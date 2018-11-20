@@ -227,6 +227,12 @@ img.icons_title {
   width: 77%;
 }
 
+@media screen and (min-width: 900px) {
+  .icon_responsive {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   nav ul > ol > li {
     display: none;
@@ -267,9 +273,36 @@ img.icons_title {
   ul li:nth-child(n+2) {
     display: none;
   }
-  img.icons_title {
+  .icon_responsive {
+    margin: 15px 0px 0px 0px;
+    float: right;
+  }
+  .burger2 {
+    display: none;
+  }
+  .responsive ul li:nth-child(n+2) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .responsive .burger2 {
+    display: block;
+  }
+  .responsive .burger1 {
+    display: none;
+  }
+  .responsive .nav-icons {
+    display: block;
+  }
+  .icons_burger {
     height: 40px;
     margin: 0px 15px;
+    width: 40px;
+    float: right;
+  }
+  img.icons_title {
+    height: 40px;
+    margin: 30px 15px;
     width: 40px;
   }
   #myBtn img {
@@ -303,6 +336,19 @@ img.icons_title {
     line-height: 30px;
   }
   nav ul > li:not(:first-child) {
+    display: none;
+  }
+  .burger2 {
+    display: none;
+  }
+  .responsive ul li:nth-child(n+2) {
+    display: block;
+    width: 100%;
+  }
+  .responsive .burger2 {
+    display: block;
+  }
+  .responsive .burger1 {
     display: none;
   }
   nav ul > li:last-of-type {
