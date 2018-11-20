@@ -250,6 +250,10 @@ img.icons_title {
     ul li:nth-child(1) {
         font-size: 50px;
     }
+    ul li:nth-child(n+2) {
+        font-size: 40px;
+    }
+    
     img.icons_title {
         height: 50px;
         margin: 0px 20px;
@@ -287,6 +291,9 @@ img.icons_title {
     }
     ul li:nth-child(1) {
         font-size: 40px;
+    }
+    ul li:nth-child(n+2) {
+        font-size: 30px;
     }
     ul li:nth-child(n+2) {
         display: none;
