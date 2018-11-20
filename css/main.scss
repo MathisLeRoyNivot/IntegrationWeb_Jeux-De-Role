@@ -45,22 +45,16 @@ div:target {
     position: fixed;
     top: 0;
     width: 100%;
-    display: flex;
 }
 
 ul li:nth-child(1) {
     font-size: 60px;
-    width: 30%;
-    text-align: center;
 }
 
 ul li:nth-child(n+2) {
-    text-align: right;
+    float: right;
 }
 
-ul {
-    width: 100%;
-}
 // Button - Menu burger
 ul li:nth-child(6) {
     display: none;
