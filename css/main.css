@@ -232,7 +232,6 @@ button[type="submit"] {
   background-color: transparent;
   display: block;
   margin: 20px auto;
-  padding: 0px 15px;
   width: 80%;
 }
 
@@ -244,8 +243,11 @@ button[type="submit"] {
 
 textarea {
   height: 100px;
-  padding: 10px 15px;
   resize: none;
+}
+
+button[type="submit"] {
+  width: 50%;
 }
 
 @media screen and (min-width: 975px) {

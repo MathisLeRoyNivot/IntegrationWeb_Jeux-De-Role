@@ -229,12 +229,14 @@
             <img class="img_theatral_game" src="img/image_Jt.jpg" alt="img theatral game" />
         </div>
 
+        <!-- FORM -->
         <div class="form-section" id="form">
             <div class="title_area">
                 <h1 class="title_article">Contactez-nous</h1>        
             </div>
-            <form action="/form.php">
-                <input type="text" name="name" placeholder="Nom" required>
+            <form action="form.php" method="POST">
+                <input type="text" name="first_name" placeholder="Prénom" required>
+                <input type="text" name="last_name" placeholder="Nom" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <textarea name="message" id="message" class="form-textarea"  placeholder="Message"></textarea>
                 <button type="submit" id="submit" name="submit">Envoyer</button> 
