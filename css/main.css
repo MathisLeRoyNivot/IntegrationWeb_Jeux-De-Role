@@ -5,7 +5,8 @@
   font-style: normal;
 }
 
-html, body {
+html,
+body {
   background-attachment: fixed;
   background-image: url("../img/Banckground.jpg");
   background-repeat: no-repeat;
@@ -24,6 +25,12 @@ div:target {
 .navbar ul li a {
   color: #FFF;
   text-decoration: none;
+}
+
+.nav-icons {
+  display: none;
+  height: 20px;
+  width: 20px;
 }
 
 /* End General */
@@ -228,14 +235,8 @@ img.icons_title {
 }
 
 @media screen and (max-width: 1199px) {
-  nav ul > ol > li {
-    display: none;
-  }
   ul li:nth-child(1) {
     font-size: 50px;
-  }
-  ul li:nth-child(n+2) {
-    display: none;
   }
   img.icons_title {
     height: 50px;
@@ -261,6 +262,17 @@ img.icons_title {
 }
 
 @media screen and (max-width: 899px) {
+  .navbar {
+    height: 80px;
+  }
+  .navbar ul {
+    line-height: 50px;
+  }
+  .main-container {
+    margin: 40px auto;
+    padding: 5px 15px 50px 15px;
+    width: 75%;
+  }
   ul li:nth-child(1) {
     font-size: 40px;
   }
