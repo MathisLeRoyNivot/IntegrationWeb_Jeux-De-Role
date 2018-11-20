@@ -21,28 +21,28 @@
                 <img class="icons_burger burger2" src="icons/LogoNavBarBurger2.png">
             </a>
             <li>
-                <a href="#theatral_game"><img class="nav-icons" src="icons/LogoJt.png" alt="icon nav">
+                <a href="#theatral_game" onclick="myFunctionRemove()"><img class="nav-icons" src="icons/LogoJt.png" alt="icon nav">
                     Jeu theatral
                     <img class="nav-icons" src="icons/LogoJt.png" alt="icon nav">
                 </a>
             </li>
 
             <li>
-                <a href="#online_game"><img class="nav-icons" src="icons/LogoJel.png" alt="icon nav">
+                <a href="#online_game" onclick="myFunctionRemove()"><img class="nav-icons" src="icons/LogoJel.png" alt="icon nav">
                     Jeu en ligne
                     <img class="nav-icons" src="icons/LogoJel.png" alt="icon nav">
                 </a>
             </li>
 
             <li>
-                <a href="#table_game"><img class="nav-icons" src="icons/LogoJst.png" alt="icon nav">
+                <a href="#table_game" onclick="myFunctionRemove()"><img class="nav-icons" src="icons/LogoJst.png" alt="icon nav">
                     Jeu sur table
                     <img class="nav-icons" src="icons/LogoJst.png" alt="icon nav">
                 </a>
             </li>
 
             <li>
-                <a href="#"><img class="nav-icons" src="icons/LogoPrese.png" alt="icon nav">
+                <a href="#" onclick="myFunctionRemove()"><img class="nav-icons" src="icons/LogoPrese.png" alt="icon nav">
                     Presentation
                     <img class="nav-icons" src="icons/LogoPrese.png" alt="icon nav">
                 </a>
@@ -227,6 +227,18 @@
                 futur dans un monde plus realiste que jamais !
             </p>
             <img class="img_theatral_game" src="img/image_Jt.jpg" alt="img theatral game" />
+        </div>
+
+        <div class="form-section" id="form">
+            <div class="title_area">
+                <h1 class="title_article">Contactez-nous</h1>        
+            </div>
+            <form action="/form.php">
+                <input type="text" name="name" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" id="message" class="form-textarea"  placeholder="Message"></textarea>
+                <button type="submit" id="submit" name="submit">Envoyer</button> 
+            </form>
         </div>
 
         <!-- SCRIPT -->

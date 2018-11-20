@@ -15,13 +15,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-// BURGER MENU
-$('.burger-menu').on('click', function () {
-    $(this).toggleClass("burger-menu--opened");
-    $(this).toggleClass("burger-menu--closed");
-  });
-  
-  
+// BURGER MENU  
   function myFunction() {
     var x = document.getElementById("navbarTop");
     if (x.className === "navbar") {
@@ -30,3 +24,8 @@ $('.burger-menu').on('click', function () {
       x.className = "navbar";
     }
   } 
+
+  function myFunctionRemove() {
+    var element = document.getElementById("navbarTop");
+    element.classList.remove("responsive");
+}

@@ -223,6 +223,31 @@ img.icons_title {
   width: 77%;
 }
 
+input[type="text"],
+input[type="email"],
+textarea,
+button[type="submit"] {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  display: block;
+  margin: 20px auto;
+  padding: 0px 15px;
+  width: 80%;
+}
+
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+  height: 40px;
+}
+
+textarea {
+  height: 100px;
+  padding: 10px 15px;
+  resize: none;
+}
+
 @media screen and (min-width: 975px) {
   .icon_responsive {
     display: none;
