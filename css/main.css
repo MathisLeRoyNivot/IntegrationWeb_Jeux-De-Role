@@ -1,17 +1,10 @@
-@font-face {
-  font-family: 'dungeon';
-  src: url("../img/DUNGRG__.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html,
 body {
   background-attachment: fixed;
   background-image: url("../img/Banckground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'dungeon';
+  font-family: 'MedievalSharp', cursive;
   margin: 0;
   padding: 0;
 }
@@ -391,4 +384,3 @@ img.icons_title {
     width: 90%;
   }
 }
-/*# sourceMappingURL=main.css.map */
