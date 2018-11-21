@@ -239,14 +239,13 @@ img.icons_title {
 // FORM
 input[type="text"],
 input[type="email"],
-textarea,
-button[type="submit"] {
-    border: 1px solid black;
+textarea {
+    border: 2px solid black;
     border-radius: 4px;
     background-color: transparent;
     display: block;
     margin: 20px auto;
-    //padding: 0px 15px;
+    padding: 0px 15px;
     width: 80%;
 }
 
@@ -263,7 +262,25 @@ textarea {
 }
 
 button[type="submit"] {
+    background-color: rgb(112, 105, 105);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    display: block;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.300em;
+    margin: 0 auto;
+    padding: 0px 15px;
     width: 50%;
+}
+
+button[type="submit"]:hover {
+    background-color: transparent;
+    border: 2px solid green;
+}
+
+::placeholder {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.375em;
 }
 
 // -------------------- START - MEDIA QUERIES --------------------
